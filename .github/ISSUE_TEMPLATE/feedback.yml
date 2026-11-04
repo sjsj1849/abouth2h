@@ -1,0 +1,60 @@
+name: 反馈 / 纠错
+description: 属性判错了、不该收录、遗漏作品，或者站点哪里不好用
+title: "[反馈] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先看一眼：
+        - **属性有误 / 不该收录** → 站内每篇作品旁边就有「✎ 属性有误」「⚑ 不该收录」，点进去编号和标题会自动填好，比在这里写快得多。
+        - **遗漏作品** → 先去站内「查收录」贴链接确认一下，避免重复提。
+
+        这里适合：要贴多张截图、问题比较复杂、或者站内表单表达不清的情况。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 属性有误（左右位 / 无差 / NP / 梦向 / 三角判错了）
+        - 不该收录（不是作品，或与 Hearts2Hearts 无关）
+        - 遗漏作品（站里还没有这篇）
+        - 页面问题（显示错位、点不动、跳转异常）
+        - 数据问题（数字对不上、更新不及时）
+        - 建议
+    validations:
+      required: true
+
+  - type: input
+    id: work
+    attributes:
+      label: 作品链接或编号
+      description: 贴作品页地址，或者填站内编号（例如 1714444）。页面问题可以留空。
+      placeholder: https://www.asianfanfics.com/story/view/1714444/...
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 说明
+      description: |
+        属性纠错请写清**建议属性**和依据（例如「第 3 章写了 4 在左」）。
+        属性写法：纯数字，左在前右在后，`47` = 4 在左、7 在右；无差写 `47无差`；多对用 `/` 隔开。
+        成员编号：1 Carmen · 2 Jiwoo · 3 Yuha · 4 Stella · 5 Juun · 6 A-na · 7 Ian · 8 Ye-on
+      placeholder: 建议属性 47，依据：第 3 章明确写了 Stella 是主动的一方……
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图（可选）
+      description: 直接拖进来。**请先裁掉账号、余额、邮箱等私人信息，也不要贴付费正文内容。**
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我确认这不是付费正文内容，也没有包含他人的个人信息
+          required: true
