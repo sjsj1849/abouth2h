@@ -116,7 +116,7 @@ About H2H 把 AsianFanFics（亚网）和 Postype（破塔）上的 Hearts2Heart
 
 我这边也搭了一个「哈图哈」飞书群，专门推心连心（Hearts2Hearts）相关的内容，跟上面的索引站是两回事。说白了就是把各个平台的更新收在一个地方，不用每天挨个 App 刷。
 
-**[加入「哈图哈」飞书群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=c56q5eac-7358-4193-a86b-3729e7c90ac6)**（邀请链接有效期一年；群只用于推送，只有管理员能发言）
+**[加入「哈图哈」飞书群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=665t0769-83b4-4159-b554-3efef932b3d4)**（邀请链接有效期一年；群只用于推送，只有管理员能发言）
 
 现在盯着这些平台：微博、B 站、抖音、TikTok、X、Instagram、YouTube、Weverse、Melon。
 
